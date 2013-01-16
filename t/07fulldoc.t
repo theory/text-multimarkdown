@@ -43,6 +43,7 @@ __DATA__
 # Heading 1
 ## Heading 2
 ### Heading 3 ###
+### 22. Heading 3 ###
 
 Other type of heading (level 2)
 -------------------------------
@@ -114,6 +115,8 @@ __END__
 
 <h3 id="heading3">Heading 3</h3>
 
+<h3 id="heading31">22. Heading 3</h3>
+
 <h2 id="othertypeofheadinglevel2">Other type of heading (level 2)</h2>
 
 <h1 id="andanotheronelevel1">And another one (level 1)</h1>
@@ -173,9 +176,9 @@ __END__
 
 <p>un*fucking*believable - *this text is surrounded by literal asterisks*, but the text before that should be bold according to the docs, but isn't FIXME!</p>
 
-<p><img src="/path/to/img.jpg" alt="Alt text" id="alttext" /></p>
+<p><img src="/path/to/img.jpg" alt="Alt text" id="alttext1" /></p>
 
-<p><img src="/path/to/img2.jpg" alt="Alt text2" title="Optional title" id="alttext2" /></p>
+<p><img src="/path/to/img2.jpg" alt="Alt text2" title="Optional title" id="alttext21" /></p>
 
 <p><img src="url/to/image" alt="Alt text for ref mode" title="Optional title attribute" id="alttextforrefmode" /></p>
 

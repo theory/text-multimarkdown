@@ -833,7 +833,10 @@ sub _Header2Label {
     $label =~ s/[^A-Za-z0-9:_.-]//g;        # Strip illegal characters
     while ($label =~ s/^[^A-Za-z]//g)
         {};     # Strip illegal leading characters
-    return $label;
+
+    my $i = '';
+    $i++ while exists $self->{_crossrefs}{$label . $i};
+    return $label . $i;
 }
 
 sub _Id2Footnote {
